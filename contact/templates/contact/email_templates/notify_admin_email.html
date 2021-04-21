@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Oxygen&display=swap" rel="stylesheet">
+    <title>Portfolio visit alert!</title>
+
+    <style>
+        html,
+        body {
+            margin: 0 auto !important;
+            padding: 0 !important;
+            height: 100% !important;
+            width: 100% !important;
+            background: #f1f1f1;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="head"
+        style=" font-family: 'Oswald', sans-serif; text-align:center; width:100%; height: auto; color:rgb(238, 238, 238); background-color: rgb(0, 0, 0);">
+
+        <h2 style="font-size:1.5rem; padding: 40px 0; margin: 0;"> {{firstname}} just contacted you! </h2>
+
+    </div>
+
+    <div class="content"
+        style="text-align:center; font-family: 'Oxygen', sans-serif; line-height: 3; font-size:1.1rem; padding: 80px 0; width:100%; background-color: rgb(238, 238, 238); color: rgb(0, 0, 0);">
+
+        <p style="margin: 0;">
+            Hello Tarun!
+        </p>
+
+        <p style="margin: 0;">
+            Looks like someone just visited your portfolio. They said:
+
+        <p style="margin: 0; padding: 2rem 0.8rem; ">
+
+            "{{message}}"
+
+        </p>
+
+        </p>
+
+        <p style="margin: 0;">
+            Their Email: {{email}}
+        </p>
+
+    </div>
+
+    <div class="footer"
+        style="text-align:center; height: auto; width:100; background-color:rgb(0, 0, 0);  color:rgb(255, 255, 255)">
+
+        <p style=" padding: 20px 0; margin:0 ">
+
+            &copy; Tarun Karmakar Portfolio
+
+        </p>
+
+    </div>
+
+</body>
+
+</html>
